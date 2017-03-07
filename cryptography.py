@@ -22,7 +22,7 @@ j=0
 while j<lk:
     int(to[j])=int(inp[j])+int(key[j])
     print (to[j])
-    j+1
+    j=j+1
     
 
 
