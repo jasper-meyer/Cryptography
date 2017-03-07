@@ -20,7 +20,7 @@ to=list('1'*li)
 j=0
 
 while j<lk:
-    to[j]=inp[j]+key[j]
+    int(to[j])=int(inp[j])+int(key[j])
     print (to[j])
     j+1
     
