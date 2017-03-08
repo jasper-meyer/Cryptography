@@ -18,12 +18,18 @@ key=[associations.find(x) for x in k]
 lk=len(key)
 to=list('1'*li)
 j=0
+p=0
 
-while j<lk:
-    to[j]=int(inp[j])+int(key[j])
-    print (to[j])
+while p<li:
+    to[j]=int(inp[p])+int(key[j])
     j=j+1
-    
+    p=p+1
+    if j==lk-1:
+        j=0
+
+
+
+print (to)
 
 
 
