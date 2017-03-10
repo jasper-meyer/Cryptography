@@ -63,4 +63,7 @@ while what!='q':
         print ("Did not understand command, try again. ")
         what = 'a'
         
+    else:
+        print ("Goodbye!")
+        
 
