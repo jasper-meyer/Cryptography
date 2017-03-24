@@ -28,7 +28,7 @@ while what!='q':
         tot=list('1'*li)
         j=0
         while j<li:
-            to[j]=int(inp[j])+int(key[j%(lk-1)])
+            to[j]=int(inp[j])+int(key[j%(lk)])
             j=j+1
          
         to=[associations[x] for x in to]
@@ -49,7 +49,7 @@ while what!='q':
         tot=list('1'*li)
         j=0
         while j<li:
-            tot[j]=int(inp[j])-int(key[j%(lk-1)])
+            tot[j]=int(inp[j])-int(key[j%(lk)])
             j=j+1
             
         tot=[associations[x] for x in tot]
